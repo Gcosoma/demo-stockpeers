@@ -27,7 +27,7 @@ st.set_page_config(
 """
 # :material/query_stats: Stock peer analysis
 
-Easily compare stocks against others in their peer group.
+Consente di confrontare in modo efficiente i titoli azionari rispetto al loro peer group di riferimento, evidenziandone la performance relativa
 """
 
 ""  # Add some space.
@@ -280,8 +280,8 @@ with right_cell:
 """
 ## Individual stocks vs peer average
 
-For the analysis below, the "peer average" when analyzing stock X always
-excludes X itself.
+Per le analisi sottostanti, la media del peer group relativa al titolo X 
+è sempre calcolata escludendo X stesso dal campione.
 """
 
 if len(tickers) <= 1:
